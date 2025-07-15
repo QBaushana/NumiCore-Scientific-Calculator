@@ -1,0 +1,83 @@
+body {
+  background: #141626;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
+.calculator {
+  background: #202336;
+  padding: 20px;
+  border-radius: 15px;
+  width: 360px;
+  box-shadow: 0 0 15px #000;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #00f8ff;
+}
+
+.menu-bar {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.menu-bar select {
+  background-color: #282b40;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.display {
+  background: #0c0f1c;
+  padding: 15px;
+  font-size: 22px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: right;
+  color: #0f0;
+  min-height: 48px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.keypad button {
+  padding: 16px 0;
+  font-size: 20px;
+  background: #333857;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.keypad button:hover {
+  background: #444a6b;
+}
+
+#graphCanvas {
+  background-color: #111a2b;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+}

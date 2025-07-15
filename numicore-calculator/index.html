@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NumiCore Scientific Calculator</title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- math.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.min.js"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    <div class="header">NumiCore</div>
+
+    <div class="menu-bar">
+      <label for="mode">Mode:</label>
+      <select id="mode" onchange="changeMode()">
+        <option value="basic">Basic Math</option>
+        <option value="algebra">Algebra</option>
+        <option value="equation">Equations</option>
+        <option value="calculus">Calculus</option>
+        <option value="trig">Trigonometry</option>
+        <option value="graph">Graph Plotting</option>
+      </select>
+    </div>
+
+    <div class="display" id="display">0</div>
+
+    <div class="keypad" id="keypad">
+      <!-- Buttons inserted dynamically -->
+    </div>
+
+    <canvas id="graphCanvas" style="display:none; margin-top: 20px;"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
