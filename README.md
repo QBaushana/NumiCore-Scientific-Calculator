@@ -1,7 +1,7 @@
 # NumiCore Scientific Calculator
 
 **NumiCore** is a modern, web-based scientific calculator built with HTML, CSS, JavaScript, and Math.js. It’s designed for students and professionals who need advanced math functionality without a physical calculator.
-
+<img width="1897" height="911" alt="Image" src="https://github.com/user-attachments/assets/9c0ca37d-299e-4349-900f-04d55527cef9" />
 ## 🔍 Features
 
 - ✨ Clean, intuitive user interface
